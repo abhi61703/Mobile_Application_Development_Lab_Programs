@@ -1,0 +1,4 @@
+com/example/visiting_card/MainActivity.java
+ com.example.visiting_card.MainActivity
+com/example/visiting_card/BuildConfig.java
+ com.example.visiting_card.BuildConfig
