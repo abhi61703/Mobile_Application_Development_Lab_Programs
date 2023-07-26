@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dialler"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Dialler\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Dialler\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->D:\Dialler\app\src\main\AndroidManifest.xml:4:5-68
+11-->D:\Dialler\app\src\main\AndroidManifest.xml:4:22-66
+12    <uses-permission android:name="android.intent.action.CALL_PRIVILEGED" />
+12-->D:\Dialler\app\src\main\AndroidManifest.xml:5:5-76
+12-->D:\Dialler\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Dialler\app\src\main\AndroidManifest.xml:6:5-78
+13-->D:\Dialler\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <application
+15-->D:\Dialler\app\src\main\AndroidManifest.xml:7:5-23:19
+16        android:allowBackup="true"
+16-->D:\Dialler\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\9b4bbe17406ebdd5cecd894aeda4ed80\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\Dialler\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->D:\Dialler\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\Dialler\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->D:\Dialler\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Dialler" >
+24-->D:\Dialler\app\src\main\AndroidManifest.xml:14:9-45
+25        <activity
+25-->D:\Dialler\app\src\main\AndroidManifest.xml:15:9-22:20
+26            android:name="com.example.dialler.MainActivity"
+26-->D:\Dialler\app\src\main\AndroidManifest.xml:15:19-47
+27            android:exported="true" >
+27-->D:\Dialler\app\src\main\AndroidManifest.xml:16:13-36
+28            <intent-filter>
+28-->D:\Dialler\app\src\main\AndroidManifest.xml:17:13-21:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\Dialler\app\src\main\AndroidManifest.xml:18:17-69
+29-->D:\Dialler\app\src\main\AndroidManifest.xml:18:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\Dialler\app\src\main\AndroidManifest.xml:20:17-77
+31-->D:\Dialler\app\src\main\AndroidManifest.xml:20:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+37            android:authorities="com.example.dialler.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\51c794e8d58f2add1b6e1035ee7c058d\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\e539e26c730ec8f29e3c4a27f918073b\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\e539e26c730ec8f29e3c4a27f918073b\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Student\.gradle\caches\transforms-2\files-2.1\e539e26c730ec8f29e3c4a27f918073b\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>

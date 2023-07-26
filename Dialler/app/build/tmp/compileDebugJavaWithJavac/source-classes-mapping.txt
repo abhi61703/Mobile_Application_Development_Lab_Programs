@@ -1,0 +1,19 @@
+com/example/dialler/BuildConfig.java
+ com.example.dialler.BuildConfig
+com/example/dialler/MainActivity.java
+ com.example.dialler.MainActivity
+ com.example.dialler.MainActivity$1
+ com.example.dialler.MainActivity$10
+ com.example.dialler.MainActivity$11
+ com.example.dialler.MainActivity$12
+ com.example.dialler.MainActivity$13
+ com.example.dialler.MainActivity$14
+ com.example.dialler.MainActivity$15
+ com.example.dialler.MainActivity$2
+ com.example.dialler.MainActivity$3
+ com.example.dialler.MainActivity$4
+ com.example.dialler.MainActivity$5
+ com.example.dialler.MainActivity$6
+ com.example.dialler.MainActivity$7
+ com.example.dialler.MainActivity$8
+ com.example.dialler.MainActivity$9
