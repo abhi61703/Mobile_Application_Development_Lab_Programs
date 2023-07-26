@@ -1,0 +1,6 @@
+com/example/text_speech/MainActivity.java
+ com.example.text_speech.MainActivity
+ com.example.text_speech.MainActivity$1
+ com.example.text_speech.MainActivity$2
+com/example/text_speech/BuildConfig.java
+ com.example.text_speech.BuildConfig
